@@ -1,10 +1,11 @@
-import { ConfigModule, ConfigService } from '@nestjs/config';
-import { TypeOrmModuleAsyncOptions } from '@nestjs/typeorm';
-
-export const ormConfig: TypeOrmModuleAsyncOptions = {
-    imports: [ConfigModule],
-    inject: [ConfigService],
-    useFactory: async (config: ConfigService) => {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ormConfig = void 0;
+const config_1 = require("@nestjs/config");
+exports.ormConfig = {
+    imports: [config_1.ConfigModule],
+    inject: [config_1.ConfigService],
+    useFactory: async (config) => {
         return {
             type: 'postgres',
             host: process.env.DB_HOST,
@@ -20,3 +21,4 @@ export const ormConfig: TypeOrmModuleAsyncOptions = {
         };
     },
 };
+//# sourceMappingURL=orm.config.js.map

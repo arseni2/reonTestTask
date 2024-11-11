@@ -1,0 +1,1 @@
+{"version":3,"file":"change-deadline.dto.js","sourceRoot":"","sources":["../../../src/task/dto/change-deadline.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,6CAA8C;AAC9C,qDAAqD;AAErD,MAAa,iBAAiB;CAK7B;AALD,8CAKC;AADG;IAHC,IAAA,qBAAW,GAAE;IACb,IAAA,4BAAU,EAAC,EAAE,OAAO,EAAE,sCAAsC,EAAE,CAAC;IAC/D,IAAA,wBAAM,EAAC,EAAE,OAAO,EAAE,kCAAkC,EAAE,CAAC;8BAC9C,IAAI;mDAAC"}
