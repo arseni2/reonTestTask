@@ -17,6 +17,9 @@ exports.options = {
     migrationsTableName: 'migrations',
     synchronize: true,
     logging: true,
+    ssl: {
+        rejectUnauthorized: false
+    }
 };
 const dataSource = new typeorm_1.DataSource(exports.options);
 exports.default = dataSource;

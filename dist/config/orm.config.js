@@ -17,7 +17,9 @@ exports.ormConfig = {
             synchronize: false,
             autoLoadEntities: true,
             logging: true,
-            ssl: true
+            ssl: {
+                rejectUnauthorized: false
+            }
         };
     },
 };

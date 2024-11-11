@@ -16,6 +16,9 @@ export const options: DataSourceOptions = {
     migrationsTableName: 'migrations',
     synchronize: true,
     logging: true,
+    ssl: {
+        rejectUnauthorized: false
+    }
 };
 
 const dataSource = new DataSource(options);
